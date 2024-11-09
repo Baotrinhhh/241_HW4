@@ -17,7 +17,7 @@ class Question2:
         are unbalanced, you should return ["a", "c"]
         """
         
-        return []
+        return [c]
     
     @staticmethod
     def balanceFactors():
@@ -27,10 +27,10 @@ class Question2:
         """
         
         return {
-            "a": 0,     # balance factor for root node for tree (a)
-            "b": 0,     # balance factor for root node for tree (b)
+            "a": 4,     # balance factor for root node for tree (a)
+            "b": 2,     # balance factor for root node for tree (b)
             "c": 0,     # balance factor for root node for tree (c)
-            "d": 0      # balance factor for root node for tree (d)
+            "d": -2      # balance factor for root node for tree (d)
         }
         
     @staticmethod
@@ -44,6 +44,15 @@ class Question2:
         AVL_tree_lists = [
             [10],
             [10, None, 20],
+            [15, 10, 20],
+            [15, 10, 20, None, None, None, 25],
+            [20, 15, 25, 10, None, None, 30],
+            [20, 15, 25, 10, 16, None, 30],
+            [20, 15, 25, 10, 16, None, 30, None, None, None, 18],
+
+
+
+
             
         ]
         
