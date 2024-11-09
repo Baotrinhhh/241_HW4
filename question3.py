@@ -18,35 +18,35 @@ class Question3:
         """
         Given a node n, find its nearest neighbor
         """
-        return "FILL THIS IN"
+        return "BFS"
     
     @staticmethod
     def question2():
         """
         Find the shortest path between 2 vertices(nodes) in a graph.
         """
-        return "FILL THIS IN"
+        return "BFS - Dijkstra's Algorithm"
     
     @staticmethod
     def question3():
         """
         Find the shortest cycle in a directed graph.
         """
-        return "FILL THIS IN"
+        return "BFS"
     
     @staticmethod
     def question4():
         """
         Find the longest cycle in a directed graph.
         """
-        return "FILL THIS IN"
+        return "DFS"
     
     @staticmethod
     def question5():
         """
         Which tree traversal scheme uses more memory
         """
-        return "FILL THIS IN"
+        return "BFS"
     
     
 if __name__ == "__main__":

@@ -46,14 +46,10 @@ class Question2:
             [10, None, 20],
             [15, 10, 20],
             [15, 10, 20, None, None, None, 25],
-            [20, 15, 25, 10, None, None, 30],
+            [15, 10, 25, None, None, 20, 30],
             [20, 15, 25, 10, 16, None, 30],
             [20, 15, 25, 10, 16, None, 30, None, None, None, 18],
-
-
-
-
-            
+            [20, 15, 25, 10, 18, None, 30, None, None, 16, 19]
         ]
         
         """
@@ -64,7 +60,13 @@ class Question2:
         balance_factors = [
             [0],
             [-1, None, 0],
-            
+            [0, 0, 0],
+            [-1, 0, -1, None, None, None, 0],
+            [-1, 0, 0, None, None, 0, 0],
+            [0, 0, -1, 0, 0, None, 0],
+            [1, -1, -1, 0, -1, None, 0, None, None, None, 0],
+            [1, -1, -1, 0, 0, None, 0, None, None, 0, 0]
+
         ]
         
         return {
